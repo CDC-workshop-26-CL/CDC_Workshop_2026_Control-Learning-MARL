@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="Learning, Control, and Strategy in Autonomous Interactive Systems — Workshop at IEEE CDC 2026." name="description"/>
+<title>Learning, Control, and Strategy in Autonomous Interactive Systems | CDC 2026 Workshop</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Libre+Baskerville:wght@700&amp;display=swap" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet">
+</link></head>
+<body>
+<header class="site-header">
+<div class="container nav-wrap">
+<a class="brand" href="#top">CDC 2026 Workshop</a>
+<nav aria-label="Primary navigation">
+<a href="#about">About</a>
+<a href="#topics">Topics</a>
+<a href="#speakers">Speakers</a>
+<a href="#program">Program</a>
+<a href="#organizers">Organizers</a>
+<a href="#contact">Contact</a>
+</nav>
+</div>
+</header>
+<main id="top">
+<section class="hero">
+<div class="container hero-content">
+<p class="eyebrow">IEEE Conference on Decision and Control · CDC 2026</p>
+<h1>Learning, Control, and Strategy in Autonomous Interactive Systems</h1>
+<p class="hero-subtitle">A workshop on the interaction of learning, control, optimization, and strategic decision-making in autonomous and multi-agent systems.</p>
+<div class="hero-meta">
+<span>📅 Workshop date: To be announced</span>
+<span>📍 Location: To be announced</span>
+</div>
+<div class="hero-actions">
+<a class="button primary" href="#speakers">View Speakers</a>
+<a class="button secondary" href="#program">View Program</a>
+</div>
+</div>
+</section>
+<section class="section" id="about">
+<div class="container narrow">
+<p class="section-kicker">About the workshop</p>
+<h2>Learning and decision-making for interactive autonomous systems</h2>
+<p>
+          Autonomous systems increasingly operate in environments shaped by uncertainty, interaction, and strategic behavior. Their successful deployment requires combining tools from control, optimization, machine learning, reinforcement learning, and game theory.
+        </p>
+<p>
+          This workshop brings together researchers working at the intersection of these areas to discuss theoretical advances, computational methods, and emerging applications. Particular emphasis is placed on methods that connect rigorous analysis with scalable learning and control architectures for complex dynamical and multi-agent systems.
+        </p>
+</div>
+</section>
+<section class="section alt" id="topics">
+<div class="container">
+<p class="section-kicker">Topics of interest</p>
+<h2>Scope</h2>
+<div class="topic-grid">
+<div class="topic-card">Learning-based control</div>
+<div class="topic-card">Reinforcement learning and optimal control</div>
+<div class="topic-card">Multi-agent and interactive systems</div>
+<div class="topic-card">Game-theoretic learning and control</div>
+<div class="topic-card">Safe and robust learning</div>
+<div class="topic-card">Decision-making under uncertainty</div>
+<div class="topic-card">Autonomous systems and robotics</div>
+<div class="topic-card">Transportation, mobility, and networked systems</div>
+</div>
+</div>
+</section>
+<section class="section" id="speakers">
+<div class="container">
+<p class="section-kicker">Invited speakers</p>
+<h2>Speakers</h2>
+<p class="section-intro">Confirmed invited speakers. Select “Talk information” to view each title and abstract.</p>
+<div class="speaker-grid">
+<article class="speaker-card">
+<img alt="Portrait of Serdar Yüksel" class="speaker-photo" loading="lazy" src="images/serdar-yuksel.jpg"/>
+<div class="speaker-body">
+<h3>Serdar Yüksel</h3>
+<p class="affiliation">Queen's University, Canada</p>
+
+<div class="speaker-links"><a href="https://mast.queensu.ca/~yuksel/Research.html" rel="noopener" target="_blank">Website →</a></div>
+<details class="talk-info"><summary>Talk information</summary><div class="talk-info-panel"><h3 class="expanded-talk-title">Reinforcement Learning for Complex (non-Markovian) Systems and Agentic Subjective Equilibria</h3><h4>Abstract</h4><p>In many applications, agents take part in systems with very complex dynamics and they respond by inevitably making incorrect modeling assumptions. Consider an agent who simultaneously learns a system and applies a decision/control policy corresponding to the learned system, where the agent views the complex (non-Markovian) system to be Markovian with perceived state variables. We present a general convergence theorem involving Q-learning with such non-Markovian dynamics under mild ergodicity conditions, and show that the limit corresponds to the fixed point of an approximate model induced by the exploration policy used during learning. When the approximation, via a quantization of a hidden complex state with a general Borel space, is sufficiently fine, under weak continuity of kernels the resulting policy is near optimal for the original system. Equivalently, this implies near optimality of empirical model learning where one fits data into a finite Markovian model under weak continuity conditions.</p><p>However, when the approximate state space is insufficiently coarse, the effect of the exploration policy becomes critical: the policy used to generate the sample paths induces a model, and then the model is used to obtain an optimal policy. This leads to the question on the existence of a fixed point equation involving learning and optimality. Beyond the single agent setting, such a setup arises when multiple decision makers are present with incomplete and different models. We define “agentic subjective equilibrium” policies as those which are self-confirming: the models induced by policies have the policies as their near optimal solutions. We establish an existence result on equilibria, and an associated convergence theorem to such ε-equilibria via policy revision dynamics. We present implications on multi-agent learning with only local/decentralized information involving symmetric dynamic games (including mean field games), generalized weakly acyclic games (including potential games), and stochastic teams.</p><p class="joint-work">Joint work with Gurdal Arslan, Ali Kara, and Bora Yongacoglu.</p></div></details></div>
+</article>
+<article class="speaker-card">
+<img alt="Portrait of R. Srikant" class="speaker-photo" loading="lazy" src="images/r-srikant.jpg"/>
+<div class="speaker-body">
+<h3>R. Srikant</h3>
+<p class="affiliation">University of Illinois Urbana-Champaign, USA</p>
+
+<div class="speaker-links"><a href="https://sites.google.com/a/illinois.edu/srikant/" rel="noopener" target="_blank">Website →</a></div>
+<details class="talk-info"><summary>Talk information</summary><div class="talk-info-panel"><h3 class="expanded-talk-title">Model-Free Robust Reinforcement Learning with Function Approximation</h3><h4>Abstract</h4><p>Distributionally robust reinforcement learning (DRRL) seeks policies that remain effective when the transition model during deployment differs from the nominal model generating the data. We study discounted model-free robust Q-learning under state–action rectangular chi-square uncertainty when the nominal kernel is unknown, and the robust Q-function is represented by fixed linear features. We derive a robust Q-learning algorithm for which we establish a finite-time Q-function error bound under geometric-mixing and feature-conditioning assumptions. Neural-network experiments demonstrate the algorithm's adaptability to large-scale tasks.</p></div></details></div>
+</article>
+<article class="speaker-card">
+<img alt="Portrait of Karl H. Johansson" class="speaker-photo" loading="lazy" src="images/karl-johansson.jpg"/>
+<div class="speaker-body">
+<h3>Karl H. Johansson</h3>
+<p class="affiliation">KTH Royal Institute of Technology, Sweden</p>
+
+<div class="speaker-links"><a href="https://people.kth.se/~kallej/" rel="noopener" target="_blank">Website →</a></div>
+<details class="talk-info"><summary>Talk information</summary><div class="talk-info-panel"><h3 class="expanded-talk-title">Talk title forthcoming</h3><h4>Abstract</h4><p>Mixed-autonomy traffic, in which connected and automated vehicles interact with human-driven vehicles, offers new opportunities to improve traffic efficiency, resilience, and safety. In such cyber-physical systems, vehicles act not only as transportation agents but also as distributed sensors and actuators, enabling real-time state estimation and feedback control. This talk presents a physics-informed learning and control framework for mixed-autonomy traffic. By embedding traffic flow dynamics into machine learning models, we obtain structured, data-efficient representations that generalize across operating conditions while preserving physical consistency. These learned models support the design of scalable feedback controllers that mitigate congestion, improve traffic flow, and adapt to disturbances and uncertainty. The presentation compares several model classes, including physics-informed neural networks, Fourier neural operators, and graph neural networks, highlighting their respective strengths in terms of expressiveness, interpretability, scalability, and robustness. The framework will be illustrated through real-world demonstrations conducted in collaboration with Swedish industry partners.</p><h4>Biography</h4><p>Karl H. Johansson is Swedish Research Council Distinguished Professor in Electrical Engineering and Computer Science at KTH Royal Institute of Technology in Sweden and Founding Director of Digital Futures. He earned his MSc degree in Electrical Engineering and PhD in Automatic Control from Lund University. He has held visiting positions at UC Berkeley, Caltech, NTU, and other institutions. His research interests focus on networked control systems and cyber-physical systems with applications in transportation, energy, and automation networks.</p><p>His distinctions include numerous best paper awards, Wallenberg Scholar, Future Research Leader, the IFAC Young Author Prize, IEEE CSS Distinguished Lecturer, IFAC Outstanding Service Award, and the IEEE CSS Bode Lecture Prize. His academic service has included President of the European Control Association, IEEE CSS Vice President, membership on the IEEE CSS Board of Governors and IFAC Council, and editorial service for Automatica, IEEE Transactions on Automatic Control, IEEE Transactions on Control of Network Systems, and other journals. He is Fellow of both IEEE and the Royal Swedish Academy of Engineering Sciences.</p></div></details></div>
+</article>
+<article class="speaker-card">
+<img alt="Portrait of Tamer Başar" class="speaker-photo" loading="lazy" src="images/tamer-basar.jpg"/>
+<div class="speaker-body">
+<h3>Tamer Başar</h3>
+<p class="affiliation">University of Illinois Urbana-Champaign, USA</p>
+
+<div class="speaker-links"><a href="https://tamerbasar.csl.illinois.edu" rel="noopener" target="_blank">Website →</a></div>
+<details class="talk-info"><summary>Talk information</summary><div class="talk-info-panel"><h3 class="expanded-talk-title">Multi-Agent Dynamical Systems with Asymmetric Information and Misaligned Objectives</h3><h4>Abstract</h4><p>Decision making in dynamic uncertain environments with multiple agents arises in many disciplines and application domains, including control, communications, distributed optimization, social networks, and economics. Here a natural framework, and a comprehensive one, for modeling, optimization, and analysis is the one provided by <em>stochastic dynamic games (SDGs)</em>, which accommodates different solution concepts depending on how the interactions among the agents are modeled, particularly whether they are in a cooperative mode (with the same objective functions, as in teams) or in a noncooperative mode (with different objective functions) or a mix of the two, such as teams of agents interacting noncooperatively across different teams (and of course cooperatively within each team). What also affects strategic interactions among the agents is the asymmetric nature of the information different agents acquire (and do not share or only partially share selectively with others, even within teams).</p><p>What makes such problems even more challenging in a dynamic environment with networked agents is the dependence of the information available to one agent at some point in time on the policies or decisions of other agents who have already acted at earlier instants of time. Such decision problems, initially studied in a team framework, are known as those with <em>nonclassical information</em> where optimal policies of team agents must be designed to balance a tradeoff between contribution to optimality of the team objective function and <em>signaling</em> through their actions useful information to other agents in their neighborhood who would be acting after them. Existence of such a tradeoff between signaling and optimization creates even more challenging issues in SDGs with misaligned objectives among at least a subset of agents, which however can be addressed effectively for a specially structured subclass of such games, namely <em>mean-field games</em>.</p><p>This talk will provide an overview of the landscape above, first for a general class of stochastic dynamic teams and games, and then for a subclass where the objective functions are quadratic, and the interaction relationships are linear. The talk will also cover, as time permits, reinforcement learning embedded into policy development, when agents do not have precise information on the underlying models.</p></div></details></div>
+</article>
+<article class="speaker-card">
+<img alt="Portrait of Andreas Malikopoulos" class="speaker-photo" loading="lazy" src="images/andreas-malikopoulos.png"/>
+<div class="speaker-body">
+<h3>Andreas Malikopoulos</h3>
+<p class="affiliation">Cornell University, USA</p>
+
+<div class="speaker-links"><a href="https://www.duffield.cornell.edu/people/andreas-malikopoulos/" rel="noopener" target="_blank">Website →</a></div>
+<details class="talk-info"><summary>Talk information</summary><div class="talk-info-panel"><h3 class="expanded-talk-title">Learning and Control Foundations for Autonomous Teams</h3><h4>Abstract</h4><p>At the frontier of autonomy lies a fundamental question: “How can we design teams of agents that reason, act, learn, and memorize cooperatively in dynamic, uncertain environments?” In this talk, I will present a unified perspective that integrates learning and control as the foundational principles for building autonomous teams. In the first half of the talk, I will discuss how we have advanced the ability of engineered systems to reason and act optimally under uncertainty, and to learn adaptively from interactions with their environment. I will illustrate these ideas through transportation-related applications, including self-learning powertrain control, power management of hybrid electric vehicles, and optimal coordination of connected and automated vehicles. These examples highlight how data-driven control and reinforcement learning can enable autonomous systems to operate safely and efficiently in real time while achieving near-optimal performance.</p><p>The second half of the talk will focus on the next frontier of building autonomous teams. I will present a theoretical framework grounded in team theory, a mathematical formalism for decentralized stochastic control problems in which multiple agents with asymmetric information cooperate toward a shared objective. I will discuss recent structural results for sequential dynamic team problems with nonclassical information structures, showing how to construct information states that remain invariant to control strategies, thereby enabling dynamic programming decompositions in decentralized settings. These results can aim toward a unifying scientific foundation, which I refer to as the Science of Autonomous Team Intelligence, where teams of agents, whether robotic, vehicular, or human–machine, can reason, act, learn, and memorize collectively, achieving coherent and safe behavior in complex, uncertain environments.</p></div></details></div>
+</article>
+<article class="speaker-card">
+<img alt="Portrait of Christos G. Cassandras" class="speaker-photo" loading="lazy" src="images/christos-cassandras.jpg"/>
+<div class="speaker-body">
+<h3>Christos G. Cassandras</h3>
+<p class="affiliation">Boston University, USA</p>
+
+<div class="speaker-links"><a href="https://christosgcassandras.org/" rel="noopener" target="_blank">Website →</a></div>
+<details class="talk-info"><summary>Talk information</summary><div class="talk-info-panel"><h3 class="expanded-talk-title">Cooperation Compliance Control of Autonomous Multi-Agent Systems in Interactive Environments</h3><h4>Abstract</h4><p>In environments where autonomous cooperating agents interact with potentially non-cooperative (typically human-operated) agents, the self-centered behavior of the latter compromises the efficiency, system-wide optimality, and safe operation of the overall multi-agent system. One way to address this is through a Cooperation Compliance Control (CCC) framework where a compliance controller incentivizes non-cooperative agents to align their behavior with system goals through a “refundable toll” scheme. A key challenge arises from the heterogeneous and unknown response models of different non-cooperative agent types to these tolls, making it difficult to achieve desired compliance probabilities over the entire system.</p><p>This may be resolved by employing Control Lyapunov Functions (CLFs) to adaptively correct (learn) crucial components of a compliance probability model online and construct data-driven feedback controllers. This framework is applied to routing in a mixed traffic transportation system where vehicle routes are set for system-wide optimality while a compliance controller incentivizes human drivers to adjust their behaviors accordingly. We demonstrate that a desired compliance probability for Human-Driven Vehicles (HDVs) can be achieved, thereby contributing to the social optimality of the traffic network.</p></div></details></div>
+</article>
+<article class="speaker-card">
+<img alt="Portrait of Murat Arcak" class="speaker-photo" loading="lazy" src="images/murat-arcak.jpg"/>
+<div class="speaker-body">
+<h3>Murat Arcak</h3>
+<p class="affiliation">University of California, Berkeley, USA</p>
+
+<div class="speaker-links"><a href="https://people.eecs.berkeley.edu/~arcak/" rel="noopener" target="_blank">Website →</a></div>
+<details class="talk-info"><summary>Talk information</summary><div class="talk-info-panel"><h3 class="expanded-talk-title">Learning and Equilibrium in Population Games</h3><h4>Abstract</h4><p>Population games provide a framework for modeling learning and decision-making in large populations of agents. This talk reviews evolutionary learning dynamics and conditions for convergence to Nash equilibrium, highlighting the role of monotonicity and passivity. We then extend this framework to hierarchical decision-making, where agents make decisions across multiple layers and receive intermediate rewards. The resulting multi-layer population games combine features of population and dynamic games, motivating a subgame-perfect equilibrium notion. We present hierarchical learning dynamics and passivity-based conditions under which their trajectories converge to the set of equilibria.</p></div></details></div>
+</article>
+<article class="speaker-card forthcoming-card">
+<img alt="Portrait of Thomas Parisini" class="speaker-photo" loading="lazy" src="images/thomas-parisini.jpg"/>
+<div class="speaker-body">
+<h3>Thomas Parisini</h3>
+<p class="affiliation">Imperial College London, UK</p>
+
+<div class="speaker-links"><a href="https://www.imperial.ac.uk/people/t.parisini" rel="noopener" target="_blank">Website →</a></div>
+<details class="talk-info"><summary>Talk information</summary><div class="talk-info-panel"><p class="forthcoming-note">Talk title and abstract forthcoming.</p></div></details></div>
+</article>
+<article class="speaker-card forthcoming-card">
+<img alt="Portrait of Rahul Mangharam" class="speaker-photo" loading="lazy" src="images/rahul-mangharam.jpg"/>
+<div class="speaker-body">
+<h3>Rahul Mangharam</h3>
+<p class="affiliation">University of Pennsylvania, USA</p>
+
+<div class="speaker-links"><a href="https://www.seas.upenn.edu/~rahulm/" rel="noopener" target="_blank">Website →</a></div>
+<details class="talk-info"><summary>Talk information</summary><div class="talk-info-panel"><p class="forthcoming-note">Talk title and abstract forthcoming.</p></div></details></div>
+</article>
+</div>
+
+</div>
+</section>
+<section class="section alt" id="program">
+<div class="container">
+<p class="section-kicker">Workshop schedule</p>
+<h2>Program</h2>
+<div class="program-card">
+<div class="program-row header-row">
+<span>Time</span>
+<span>Session</span>
+</div>
+<div class="program-row">
+<span>08:30–08:40</span>
+<span>Opening remarks</span>
+</div>
+<div class="program-row">
+<span>08:40–09:20</span>
+<span>Invited talk</span>
+</div>
+<div class="program-row">
+<span>09:20–10:00</span>
+<span>Invited talk</span>
+</div>
+<div class="program-row">
+<span>10:00–10:30</span>
+<span>Coffee break</span>
+</div>
+<div class="program-row">
+<span>Later sessions</span>
+<span>Detailed program coming soon</span>
+</div>
+</div>
+</div>
+</section>
+<section class="section" id="organizers">
+<div class="container">
+<p class="section-kicker">Organizing team</p>
+<h2>Organizers</h2>
+<div class="organizer-grid">
+
+
+
+<article class="organizer-card">
+<h3>Andreas Malikopoulos</h3>
+<p>Cornell University, USA</p>
+<a href="https://www.duffield.cornell.edu/people/andreas-malikopoulos/" rel="noopener" target="_blank">Research website →</a>
+</article><article class="organizer-card">
+<h3>Hossein Nick Zinat Matin</h3>
+<p>École Polytechnique, France</p>
+</article><article class="organizer-card">
+<h3>Ting Bai</h3>
+<p>Shanghai Jiao Tong University, China</p>
+<a href="https://tingbai.com.cn/" rel="noopener" target="_blank">Research website →</a>
+</article></div>
+</div>
+</section>
+<section class="section contact-section" id="contact">
+<div class="container narrow">
+<p class="section-kicker">Contact</p>
+<h2>Workshop information</h2>
+<p>
+          Registration details, the final program, and additional workshop information will be posted here as they become available.
+        </p>
+<p>
+          For questions, please contact the workshop organizers at
+          <a href="mailto:workshop-email@example.com">workshop-email@example.com</a>.
+        </p>
+</div>
+</section>
+</main>
+<footer>
+<div class="container footer-wrap">
+<p>Learning, Control, and Strategy in Autonomous Interactive Systems · CDC 2026 Workshop</p>
+<p>Last updated: August 2026</p>
+</div>
+</footer>
+</body>
+</html>
